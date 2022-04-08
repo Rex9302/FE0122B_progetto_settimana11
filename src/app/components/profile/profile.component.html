@@ -1,0 +1,10 @@
+<div class="container">
+  <mat-card>
+    <mat-card-content label="Info">
+    <div class="info" *ngIf="user$|async as user" >
+      <p>Nome: {{user.user.name}}</p>
+      <p>Email: {{user.user.email}}</p>
+    </div>
+    </mat-card-content>
+  </mat-card>
+</div>
