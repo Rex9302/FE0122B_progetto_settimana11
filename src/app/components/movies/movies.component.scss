@@ -1,0 +1,25 @@
+.contenitore{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+.mat-card{
+  margin: 25px;
+}
+.carta{
+  width: 350px;
+}
+.mat-card-title {
+margin-bottom: 15px !important;
+}
+.spinner-cont{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

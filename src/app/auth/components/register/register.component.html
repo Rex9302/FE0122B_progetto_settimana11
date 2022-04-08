@@ -2,7 +2,7 @@
   <mat-card class="card">
     <mat-card-title class="mb">Registrati</mat-card-title>
     <mat-card-content>
-        <form class="example-form" #form="ngForm" (ngSubmit)="onsubmit(form)">
+      <form class="example-form" #form="ngForm" (ngSubmit)="onsubmit(form)">
         <mat-form-field
           class="example-full-width"
           appearance="fill"
@@ -57,17 +57,22 @@
         </mat-form-field>
         <mat-card-actions>
           <div class="center">
-            <button mat-raised-button color="primary" type="submit" [disabled]="form.invalid">
+            <button
+              mat-raised-button
+              color="primary"
+              type="submit"
+              [disabled]="form.invalid"
+            >
               Registrati
             </button>
           </div>
         </mat-card-actions>
       </form>
-      </mat-card-content>
+    </mat-card-content>
     <mat-card-footer>
       <p>
         Sei già registrato?
-        <span class="ul" [routerLink]="'/login'" >Accedi!</span>
+        <span class="ul" [routerLink]="'/login'">Accedi!</span>
       </p>
     </mat-card-footer>
   </mat-card>

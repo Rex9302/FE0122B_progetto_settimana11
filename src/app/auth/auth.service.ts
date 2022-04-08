@@ -27,7 +27,6 @@ export class AuthService {
   constructor(private http: HttpClient, private router: Router) {
     this.ripristina()
   }
-
   login(data: { email: string; password: string }) {
     return this.http.post<AuthData>(`${this.URL}/login`, data).pipe(
       tap((data) => {

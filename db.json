@@ -7,40 +7,28 @@
       "id": 2
     },
     {
-      "email": "ressialberto@gmail.com",
-      "password": "$2a$10$uKqFgwx4euf1y/8ToJq/TufvWcm6zDAGzG3fytARVKmahupI2WLfm",
-      "name": "Alberto",
+      "email": "gio@mail.com",
+      "password": "$2a$10$Ge67lFmjuzpf5rgBY6SiK.4TJLBJHbkL2VPCdkPzTi5WKyDufh2zS",
+      "name": "Giorgio",
       "id": 3
     },
     {
       "email": "pippo@mail.com",
-      "password": "$2a$10$agjBSOQgBKpeIpF9Vu7BYeamSYCEPEFzTg/M8SX0wPK0CEIi3UwIK",
+      "password": "$2a$10$8AGGn.4GvYndqmSlK7plCOgkzNamd8F.TH5MJda0kXPJ7Oepsvrq2",
       "name": "Pippo",
       "id": 4
     },
     {
-      "email": "pluto@mail.com",
-      "password": "$2a$10$AAP9Jr5jFePEUFr86Jl6wuLIMOXFzWd37lmEy6.InB5rN8NtlQ/8C",
-      "name": "Pluto",
+      "email": "1234@gmail.com",
+      "password": "$2a$10$BfqhZ2bxTlzkEhii8OK3IezFuAzYPiJzdgaASqcc7xpkY4jIasTw2",
+      "name": "1234",
       "id": 5
     },
     {
       "email": "prova@mail.com",
-      "password": "$2a$10$iEwMm5I9rTp7rc4olk5Y0eQq8.sOizgdG6sXw317oW.o6kfVPNYNy",
-      "name": "Alberto",
+      "password": "$2a$10$umI2fz3u3e/xKzpmWla3SOJAIhYisDA0a0Q6ZhQC7ZB6N6tflNaFq",
+      "name": "Prova",
       "id": 6
-    },
-    {
-      "email": "1234@gmail.com",
-      "password": "$2a$10$z6KAfhRnkflQa65V6gt7P.MZbXOQUSnLOSGhT7iQ6TVof7EwosKju",
-      "name": "Barbapapa",
-      "id": 7
-    },
-    {
-      "email": "pelata@mail.com",
-      "password": "$2a$10$YtDa0WyxNRtJaLJwV6cS9uEzPERlxBPfY7mFTv2JO4iuYAMmkI2cC",
-      "name": "fede",
-      "id": 8
     }
   ],
   "favorites": [
@@ -55,69 +43,59 @@
       "id": 2
     },
     {
-      "userId": 8,
+      "userId": 4,
       "movieId": 578701,
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "movieId": 567189,
       "id": 4
     },
     {
-      "userId": 8,
-      "movieId": 615457,
-      "id": 5
-    },
-    {
-      "userId": 7,
-      "movieId": 503736,
-      "id": 6
-    },
-    {
-      "userId": 7,
-      "movieId": 586047,
+      "userId": 5,
+      "movieId": 632357,
       "id": 7
     },
     {
-      "userId": 7,
-      "movieId": 813258,
+      "userId": 5,
+      "movieId": 578701,
       "id": 8
     },
     {
-      "userId": 8,
-      "movieId": 791373,
+      "userId": 5,
+      "movieId": 567189,
       "id": 9
     },
     {
-      "userId": 8,
-      "movieId": 503736,
+      "userId": 5,
+      "movieId": 573680,
+      "id": 10
+    },
+    {
+      "userId": 6,
+      "movieId": 573680,
       "id": 11
     },
     {
-      "userId": 8,
-      "movieId": 586047,
+      "userId": 6,
+      "movieId": 615457,
       "id": 12
     },
     {
-      "userId": 8,
-      "movieId": 460465,
+      "userId": 6,
+      "movieId": 578701,
       "id": 13
     },
     {
-      "userId": 7,
-      "movieId": 615457,
+      "userId": 6,
+      "movieId": 632357,
       "id": 14
     },
     {
-      "userId": 7,
-      "movieId": 573680,
+      "userId": 6,
+      "movieId": 460465,
       "id": 15
-    },
-    {
-      "userId": 7,
-      "movieId": 578701,
-      "id": 16
-    },
-    {
-      "userId": 7,
-      "movieId": 634528,
-      "id": 17
     }
   ],
   "genres": [

@@ -1,0 +1,45 @@
+<mat-toolbar color="primary" *ngIf="showNav">
+  <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+  <span style="margin-left: 15px">Progetto S11 - Movies</span>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav mode="over" #sidenav>
+    <mat-list>
+      <mat-list-item>
+        <button
+          (click)="sidenav.toggle()"
+          color="primary"
+          mat-raised-button
+          [routerLink]="['/']"
+        >
+          Movies
+        </button>
+      </mat-list-item>
+      <mat-list-item>
+        <button
+          (click)="sidenav.toggle()"
+          color="accent"
+          mat-raised-button
+          [routerLink]="['/profile']"
+        >
+          Profile
+        </button>
+      </mat-list-item>
+      <mat-list-item>
+        <button
+          class="mb"
+          color="warn"
+          mat-flat-button
+          (click)="logout(); sidenav.toggle()"
+        >
+          Logout
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <div class="content"><router-outlet></router-outlet></div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,8 +1,8 @@
-.container{
-  position: absolute;
-  top: 25px;
-  left: 25px;
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+mat-card {
+  width: 100%;
 }
